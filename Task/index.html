@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST API Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <button id="fetch-button" class="btn">Fetch Data</button>
+        <div id="loading" class="loading">Loading...</div>
+        <div id="error" class="error">An error occurred. Please try again later.</div>
+        <div id="posts" class="posts"></div>
+    </div>
+
+    <!-- Modal for displaying post details -->
+    <div id="post-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="post-details" class="post-details"></div>
+            <div id="comments" class="comments"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
